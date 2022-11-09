@@ -14,11 +14,12 @@ module.exports = {
       port = 9000,
       rateLimitOptions,
       corsOptions,
+      onReceiveLogs,
     } = options || {};
     const app = new Koa();
     const router = new Router();
 
-    router.post(path, koaBody(), collect.handler);
+    router.post(path, koaBody(), collect.generateHandler(onReceiveLogs));
 
     app.use(
       ratelimit(

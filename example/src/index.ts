@@ -1,4 +1,4 @@
-import { DebugJs, LogLevel } from "@automata/debug-js-browser";
+import { DebugJs, LogLevel } from "@automata-network/debug-js-browser";
 
 const debugJs = new DebugJs({
   appName: "example",

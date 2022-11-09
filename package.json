@@ -6,7 +6,7 @@
   "scripts": {
     "changeset": "changeset",
     "changeset:version": "changeset version",
-    "release": "turbo run build && changeset publish"
+    "release": "npm run build -w=packages/browser && changeset publish"
   },
   "repository": {
     "type": "git",

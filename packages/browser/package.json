@@ -1,6 +1,6 @@
 {
-  "name": "@automata/debug-js-browser",
-  "version": "0.0.1",
+  "name": "@automata-network/debug-js-browser",
+  "version": "1.0.0",
   "description": "a front-end logs collection tool",
   "type": "module",
   "main": "./dist/index.js",

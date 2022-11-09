@@ -1,13 +1,15 @@
 module.exports = {
-  handler: async (ctx) => {
-    const { body } = ctx.request;
+  generateHandler: (logReceiver) => {
+    return async (ctx) => {
+      const { body } = ctx.request;
 
-    const logParsed = formateLog(body);
+      const logParsed = formateLog(body);
 
-    console.log(logParsed);
+      logReceiver(logParsed);
 
-    ctx.type = "json";
-    ctx.status = 200;
+      ctx.type = "json";
+      ctx.status = 200;
+    };
   },
 };
 

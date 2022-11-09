@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@automata/debug-js-browser": "file:../packages/browser",
-    "@automata/debug-js-server": "file:../packages/server"
+    "@automata-network/debug-js-browser": "file:../packages/browser",
+    "@automata-network/debug-js-server": "file:../packages/server"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

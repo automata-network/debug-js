@@ -1,7 +1,8 @@
 {
-  "name": "@automata/debug-js-server",
-  "version": "0.0.1",
+  "name": "@automata-network/debug-js-server",
+  "version": "1.0.0",
   "description": "a front-end logs collection tool",
+  "private": false,
   "main": "src/index.js",
   "scripts": {},
   "repository": {

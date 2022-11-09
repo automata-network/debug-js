@@ -1,0 +1,25 @@
+{
+  "name": "@automata/debug-js-browser",
+  "version": "0.0.1",
+  "description": "a front-end logs collection tool",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "unpkg": "./dist/index.iife.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "clean": "rm -rf dist",
+    "watch": "vite build --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automata-network/debug-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/automata-network/debug-js/issues"
+  },
+  "homepage": "https://github.com/automata-network/debug-js#readme"
+}

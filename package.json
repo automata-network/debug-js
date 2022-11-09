@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "a front-end logs collection tool",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "changeset": "changeset",
     "changeset:version": "changeset version",
